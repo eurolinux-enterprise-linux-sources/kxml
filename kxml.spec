@@ -30,7 +30,7 @@
 
 Name:           kxml
 Version:        2.3.0
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Small XML pull parser
 License:        MIT
 URL:            http://kxml.sourceforge.net/
@@ -93,6 +93,9 @@ cp -pr www/kxml2/javadoc/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3.0-5
+- Mass rebuild 2013-12-27
+
 * Fri Aug 02 2013 Michal Srb <msrb@redhat.com> - 2.3.0-4
 - Add create-tarball.sh script to SRPM
 
